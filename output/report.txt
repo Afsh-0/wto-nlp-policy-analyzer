@@ -1,0 +1,14 @@
+
+POLICY INSIGHTS:
+
+- Main countries discussed: Itochu, Brent, Doha, Indonesia, Gallus
+- Key organizations involved: the Codex Alimentarius, PSA, IP, External, The Public Works Authority Ashghal
+- Trade/financial references detected: 37 monetary mentions
+- High geopolitical complexity detected (multiple countries involved)
+
+KEY ENTITIES:
+
+PERSON : ['Maydan Mahzam', 'Fixing Profits', 'QP Oil', 'Expiry', 'DS576', 'Licence', 'Milaha', 'Ras Laffan Port']
+ORG : ['the Codex Alimentarius', 'PSA', 'IP', 'External', 'The Public Works Authority Ashghal', 'Permanent Constitution', 'the Civil Aviation Security Regulations', 'FDI']
+GPE : ['Itochu', 'Brent', 'Doha', 'Indonesia', 'Gallus', 'Marhaba', 'Licence', 'Portugal']
+MONEY : ['USD 30.4 billion', '36.2 33.8', 'USD 20 billion', 'USD 44 billion', 'USD 29 billion', '3.35', 'some USD 40 billion', 'USD 1.2 billion']
