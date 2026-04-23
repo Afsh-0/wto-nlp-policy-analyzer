@@ -23,3 +23,25 @@ for k, v in entities.items():
 
 
 plot_entity_frequency(entities)
+
+import sys
+import os
+
+os.makedirs("output", exist_ok=True)
+
+original_stdout = sys.stdout
+
+with open("output/report.txt", "w", encoding="utf-8") as f:
+    sys.stdout = f   # redirect output to file
+
+    print("\nPOLICY INSIGHTS:\n")
+    for i in insights:
+        print("-", i)
+
+    print("\nKEY ENTITIES:\n")
+    for k, v in entities.items():
+        print(k, ":", list(set(v))[:8])
+
+sys.stdout = original_stdout  # back to normal
+
+print("Report saved to output/report.txt")
