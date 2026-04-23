@@ -1,0 +1,6 @@
+pandas
+nltk
+spacy
+pdfplumber
+transformers
+torch
